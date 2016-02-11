@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["apprnt_diameter","Returns the **apparent diameter** of an asteroid"],["diameter","Returns the **diameter** of an asteroid"]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["passage_through_node","Returns the **time of passage** of a body through a **node**, along with it's **radius vector** at that time"],["true_anom_and_rad_vec","Returns the **true anomaly** and **radius vector** of a body in a parabolic orbit"]]});

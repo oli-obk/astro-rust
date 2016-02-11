@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["earth_moon_mass_ratio","Returns the **Earth-Moon mass ratio**"],["gauss_grav","Returns the **Gaussian gravitational constant** *| in radians*"],["speed_of_light","Returns the **speed of light** in vaccum *| in meters per second*"],["sun_earth_mass_ratio","Returns the **Sun-Earth mass ratio**"]]});

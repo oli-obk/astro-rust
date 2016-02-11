@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["true_anom_and_rad_vec","Returns the **true anomaly** and **radius vector** of a body in a near-parabolic orbit"]]});

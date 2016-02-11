@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `lunar` mod in crate `astro`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, lunar">
+
+    <title>astro::lunar - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>astro</a></p><script>window.sidebarCurrent = {name: 'lunar', ty: 'mod', relpath: '../'};</script><script defer src="../sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content mod">
+<h1 class='fqn'><span class='in-band'>Module <a href='../index.html'>astro</a>::<wbr><a class='mod' href=''>lunar</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-278' class='srclink' href='../../src/astro/lunar.rs.html#1-1027' title='goto source code'>[src]</a></span></h1>
+<div class='docblock'><p>The Earth&#39;s moon</p>
+</div><h2 id='enums' class='section-header'><a href="#enums">Enums</a></h2>
+<table>
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.Phase.html'
+                               title='astro::lunar::Phase'>Phase</a></td>
+                        <td class='docblock short'>
+                             <p>Represents a phase of the Moon</p>
+
+                        </td>
+                    </tr>
+                </table><h2 id='functions' class='section-header'><a href="#functions">Functions</a></h2>
+<table>
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.bright_limb.html'
+                               title='astro::lunar::bright_limb'>bright_limb</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>position angle</strong> of the Moon&#39;s <strong>bright limb</strong></p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.eq_hz_parllx.html'
+                               title='astro::lunar::eq_hz_parllx'>eq_hz_parllx</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>equatorial horizontal parallax</strong> of the Moon</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.geocen_ecl_pos.html'
+                               title='astro::lunar::geocen_ecl_pos'>geocen_ecl_pos</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>geocentric ecliptic</strong> position of the Moon,
+referred to the <strong>mean equinox of the date</strong></p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.illum_frac_frm_ecl_coords.html'
+                               title='astro::lunar::illum_frac_frm_ecl_coords'>illum_frac_frm_ecl_coords</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>illuminated fraction</strong> of the lunar <strong>disk</strong>, using eclipctic coordinates</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.illum_frac_frm_eq_coords.html'
+                               title='astro::lunar::illum_frac_frm_eq_coords'>illum_frac_frm_eq_coords</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>illuminated fraction</strong> of the lunar <strong>disk</strong>, using equatorial coordinates</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.inc_of_mn_lunar_eq.html'
+                               title='astro::lunar::inc_of_mn_lunar_eq'>inc_of_mn_lunar_eq</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>inclination</strong> of the <strong>mean lunar equator</strong> with the
+ecliptic</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.mn_ascend_node.html'
+                               title='astro::lunar::mn_ascend_node'>mn_ascend_node</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>longitude</strong> of the <strong>mean ascending node</strong> of the Moon</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.mn_perigee.html'
+                               title='astro::lunar::mn_perigee'>mn_perigee</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>longitude</strong> of the <strong>mean perigee</strong> of the Moon</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.optical_libr.html'
+                               title='astro::lunar::optical_libr'>optical_libr</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>optical librations</strong> of the Moon in longitude and
+latitude</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.physical_libr.html'
+                               title='astro::lunar::physical_libr'>physical_libr</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>physical librations</strong> of the Moon in longitude and
+latitude</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.pos_angl_of_axis_of_rot.html'
+                               title='astro::lunar::pos_angl_of_axis_of_rot'>pos_angl_of_axis_of_rot</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>position angle</strong> of the <strong>axis of rotation</strong> of the Moon</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.semidiameter.html'
+                               title='astro::lunar::semidiameter'>semidiameter</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>equatorial semidiameter</strong> of the Moon</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.time_of_passage_through_nodes.html'
+                               title='astro::lunar::time_of_passage_through_nodes'>time_of_passage_through_nodes</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>times of passage</strong> of the Moon through the <strong>ascending</strong>
+and <strong>descending nodes</strong>, close to a given date</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.time_of_phase.html'
+                               title='astro::lunar::time_of_phase'>time_of_phase</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the Julian day corresponding to one of the four
+<strong>phases</strong> of the Moon</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.topocen_libr_by_diff_corrections.html'
+                               title='astro::lunar::topocen_libr_by_diff_corrections'>topocen_libr_by_diff_corrections</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>topocentric librations</strong> of the Moon</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.total_libr.html'
+                               title='astro::lunar::total_libr'>total_libr</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>total librations</strong> of the Moon in longitude and
+latitude</p>
+
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.true_ascend_node.html'
+                               title='astro::lunar::true_ascend_node'>true_ascend_node</a></td>
+                        <td class='docblock short'>
+                             <p>Returns the <strong>longitude</strong> of the <strong>true ascending node</strong> of the Moon</p>
+
+                        </td>
+                    </tr>
+                </table></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "astro";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>
